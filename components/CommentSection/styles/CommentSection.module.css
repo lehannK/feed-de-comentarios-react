@@ -1,0 +1,55 @@
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-5");
+
+.container {
+  background-color: #eaf4ff;
+  padding: 0.5rem;
+  max-width: 18rem;
+  display: flex;
+  flex-direction: column;
+  font-family: "Helvetica Neue", sans-serif;
+  border-radius: 13px;
+  padding-bottom: 2rem;
+}
+
+.textAreaInput {
+  width: 17rem;
+  height: 10rem;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+
+.emailInput {
+  width: 17rem;
+  box-sizing: border-box;
+  border-radius: 3px;
+  border: 1px solid;
+}
+
+.btn {
+  padding: 0.3rem;
+  width: 17rem;
+  background-color: #ffffff;
+  border: 1px solid;
+  border-radius: 3px;
+}
+
+.date {
+  font-size: 12px;
+  text-align: left;
+  margin: 0;
+  font-style: italic;
+}
+
+.emailOfComment {
+  font-weight: bold;
+}
+
+.commentListBody {
+  max-width: 16rem;
+  word-wrap: break-word;
+}
+
+#btnRemove {
+  width: 7rem;
+}
